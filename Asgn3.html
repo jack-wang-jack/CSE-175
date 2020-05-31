@@ -1,0 +1,28 @@
+<div class="upcoming-card-container">
+
+  <div class="title">{{header_text}}</div>
+
+  <div class="today">{{date_1}}
+    <div *ngFor="let item of events.today" class = "lists_1">
+      <div class='list_1_1'>
+      #{{item.summary}}
+      </div>
+      <div class="list_1_2">
+      {{convertTime2(item.start)}} - {{convertTime1(item.end)}}
+      </div>
+    </div>
+  </div>
+
+  <div class="tomorrow">{{date_2}}
+    <div *ngFor="let item of events.tomorrow" class = "lists_2">
+      <div class='list_2_1'>
+      #{{item.summary}}
+      </div>
+      <div class="list_2_2">
+      {{convertTime2(item.start)}} - {{convertTime1(item.end)}}
+      </div>
+    </div>
+  </div>
+
+  
+</div>
