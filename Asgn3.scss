@@ -1,0 +1,112 @@
+@import url(//fonts.googleapis.com/css?family=Montserrat);
+
+.upcoming-card-container {
+  // REMOVE WHEN FINISHING LAYOUT STYLES
+  border: 1px solid black;
+  width:265px;
+  height:310px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+
+  .title{
+    margin-top:26px;
+    margin-left:24px;
+    margin-right:20px;
+    width:221px;
+    height:25px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    color: #4B5853;
+  }
+
+  .today{
+    margin-left:24px;
+    margin-top:16px;
+    margin-right:25px;
+    //width:163px;
+    height:18px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #4B5853;
+    .lists_1{
+      height:31px;
+      display:flex;
+      justify-content: space-between;
+      margin-top:9px;
+      background: linear-gradient(90.81deg, #EE8B72 -3.96%, #FFB987 110.33%);
+      border-radius: 5px;
+      .list_1_1{
+        margin-left:8px;
+        margin-top:6px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 17px;
+        color: #FFFFFF;
+      }
+      .list_1_2{
+        margin-top:6px;
+        margin-right:8px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 17px;
+        text-align: right;
+        color: #FFFFFF;
+      }
+    }
+  }
+
+  .tomorrow{
+    margin-left:24px;
+    margin-top:94px;
+    margin-right:25px;
+ 
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #4B5853;
+    
+    .lists_2{
+      height:31px;
+      display:flex;
+      justify-content: space-between;
+      margin-top:9px;
+      background: linear-gradient(90deg, #2DBDB1 -4.5%, #80E6DE 104.9%);
+      border-radius: 5px;
+    
+      .list_2_1{
+        margin-left:8px;
+        margin-top:6px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 17px;
+        color: #FFFFFF;
+      }
+      .list_2_2{
+        margin-top:6px;
+        margin-right:8px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 17px;
+        text-align: right;
+        color: #FFFFFF;
+      }
+    }
+  }
+}
